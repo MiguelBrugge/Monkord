@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block html %}
+    <body class="bg-main vh-100 d-flex align-items-center">
+        <div class="position-absolute top-0 text-white p-3 d-flex gap-">
+            <img class="mt-1" src="{% static 'images/MonkordM.png' %}" width="32" height="32" alt="M Logo">
+            <h2 class="m-0">onkord</h2>
+        </div>
+        
+        <div id="login" class="bg-white rounded mx-auto w-100 h-75">
+            <form action="" method="POST" class="w-75 mx-auto d-flex flex-column align-items-center justify-content-center h-100">
+                {% csrf_token %}
+                <h1 class="">Welcome Back!</h1>
+                <button class="dark-hover mt-3 py-2 w-100 text-center position-relative fw-bold rounded bg-white" type="submit"><img class="position-absolute start-0 ms-2" src="{% static 'images/google.png' %}" alt="Google logo" width="25">Log in with Google</button>
+                <div class="divider w-100 my-4"></div>
+                <label class="w-100 fw-bold mb-1" for="Username">Email or Username</label>
+                <input class="w-100 border-0 p-2 bg-lg rounded fw-bold" type="text" name="username" id="Username" placeholder="Email or Username">
+                <br>
+                <label class="w-100 fw-bold mb-1" for="Password">Password</label>
+                <input class="w-100 border-0 p-2 bg-lg rounded fw-bold" type="password" name="password" id="Password" placeholder="Password">
+                <br><br>
+                <div class="w-100 d-flex gap-2 flex-column mx-auto">
+                    <button class="py-2 fw-bold rounded green-button text-white border-0 light-hover" type="submit">Log in</button>
+                    <button class="py-2 fw-bold rounded blue-button text-white border-0 light-hover" type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+    </body>
+{% endblock %}
+
