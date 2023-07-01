@@ -32,12 +32,18 @@ The formatting is rendered in real-time, making the chat more visually appealing
 Each user has a profile that includes information such as their username, name, about section, and profile picture (pfp).
 Users can update their profile information and upload a custom profile picture.
 
+- **Django Models and MySQL Database:**
+The application uses Django's built-in ORM (Object-Relational Mapping) to interact with a MySQL database.
+Django models are defined to represent the data structure and relationships of the chat application.
+
 # Technologies Used
 **Monkord utilizes the following technologies:**
 
 Python: A powerful programming language used for the development of the backend logic.
 Django: A high-level Python web framework that provides a robust foundation for building web applications.
 Django Channels: A Django library that adds support for WebSocket communication, enabling real-time, bidirectional communication between the client and the server.
+Django ORM: A component of Django that provides an abstraction layer for interacting with the database.
+MySQL: An open-source relational database management system used for storing application data.
 HTML: The standard markup language used for creating web pages.
 CSS: A stylesheet language used for describing the visual presentation of the application.
 JavaScript: A programming language that enables dynamic and interactive elements on web pages.
