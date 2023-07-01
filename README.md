@@ -3,9 +3,8 @@
 Welcome to the Monkord! This project is a chat application built using Django and Django Channels, incorporating websockets for real-time communication. With this application, users can log in, choose who they want to chat with, and have interactive conversations. Additionally, users have the ability to customize their online status, search for specific chats, and format their messages using bold, italic, and h1 styles.
 
 ![image](https://github.com/MiguelBrugge/Monkord/assets/103996305/5e087003-fc70-4a35-b0be-ba6d37a2d93f)
-![image](https://github.com/MiguelBrugge/Monkord/assets/103996305/da53f90b-e04a-4931-a599-fac206d7025c)
-![image](https://github.com/MiguelBrugge/Monkord/assets/103996305/2f8cbb29-afa6-481f-8c98-841022d93b6c)
-
+![image](https://github.com/MiguelBrugge/Monkord/assets/103996305/44cdb8a5-b711-4913-b21f-412619065391)
+![image](https://github.com/MiguelBrugge/Monkord/assets/103996305/f27930fb-75b4-45ff-8a22-1e1ad283e791)
 
 # Features
 - **User Registration and Authentication:**
