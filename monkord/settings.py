@@ -94,10 +94,10 @@ DATABASES = {
             'charset': 'utf8mb4',
             'init_command': "SET NAMES 'utf8mb4' COLLATE 'utf8mb4_unicode_ci'",
         },
-        'NAME': 'monkord',
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
+        'NAME': 'MiguelBrugge$monkord',
+        'USER': 'root6021',
+        'PASSWORD': 'root6021',
+        'HOST': 'MiguelBrugge.mysql.pythonanywhere-services.com',
         'PORT': '3306',
     }
 }
